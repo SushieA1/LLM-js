@@ -8,8 +8,8 @@ The purpose of this module is to make running LLM's easier to manage and use, an
 
 ## Features 
 
-- CLI chat sample
-- Web chat sample running on a local Nodejs server
+- CLI chat sample [ConsoleChatApp.js]
+- Web chat sample running on a local Nodejs server [WebServer.js]
 
 ## How to use
 #### Reminder: before using this Module You must have Nodejs installed and a *running* LLM server (Eg. Ollama or LM Studio) 
