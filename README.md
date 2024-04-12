@@ -29,7 +29,7 @@ const chat = (new (require("./app/chat"))); // importing the chat class
 //chat.url = "http://localhost:1234/v1/chat/completions" // LM Studio (default value)
 //chat.reset_history(); // In case you need to reset the history programmatically
 
-// Must use an Async function to use synchronize the methods
+// Must use an Async function in order to synchronize the methods
 (async () => {
 let input = "Message here";
 let response = await chat.receive_message(input);
